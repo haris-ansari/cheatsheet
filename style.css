@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(234, 217, 173);
+    margin: 2% 20%;
+    padding: 2% 3%;
+    border: 2px solid black;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+h2 {
+    margin: 8px auto;
+    padding: 5px 0;
+}
+
+table {
+    margin: 25px auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table th {
+    background-color: rgb(102, 81, 81);
+    color: white;
+    padding: 5px;
+}
+
+table tr td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: separate;
+}
+
+table tr td:last-child {
+    text-align: start;
+}
+
+code {
+    background-color: aliceblue;
+}
